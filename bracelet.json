@@ -1,0 +1,38 @@
+[
+    
+    
+     {
+        "name":"item1",
+        "image":"assets/mo1s.jpg",
+        "price":"price-100e"
+    
+    },
+     {
+        "name":"item2",
+        "image":"assets/mo2s.jpg",
+    "price":"price-100e"
+    },
+     {
+        "name":"item3",
+        "image":"assets/mo3s.jpg",
+        "price":"price-100e"
+    
+    }, {
+        "name":"item4",
+        "image":"assets/mo4s.jpg",
+        "price":"price-100e"
+    
+    }
+    , {
+        "name":"item5",
+        "image":"assets/mo6s.jpg",
+        "price":"price-100e"
+    
+    }
+    , {
+        "name":"item6",
+        "image":"assets/mo6s.jpg",
+        "price":"price-100e"
+    
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name":"item1",
+        "image":"assets/pic1s.jpg",
+        "price":"price-700e"
+    },
+     {
+        "name":"item2",
+        "image":"assets/pic2s.jpg",
+    "price":"price-500e"
+    
+    },
+     {
+        "name":"item3",
+        "image":"assets/pic3s.jpg",
+        "price":"price-500e"
+    
+    }, {
+        "name":"item4",
+        "image":"assets/pic4s.jpg",
+        "price":"price-400e"
+    
+    }
+    , {
+        "name":"item5",
+        "image":"assets/pic5s.jpg",
+        "price":"price-300e"
+    
+    }
+    , {
+        "name":"item6",
+        "image":"assets/pic6s.jpg",
+        "price":"price-200e"
+    
+    }
+    
+
+]
+
+
+
+
+
+

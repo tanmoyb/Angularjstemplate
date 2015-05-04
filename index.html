@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Store">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/app.css" rel="stylesheet">
+    <script src="js/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.js"></script>
+    <script src="js/app.js"></script> 
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container">
+              <br>
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img style="max-height:220px" src="assets/banner1.jpg" alt="Chania"  class="img-responsive" />
+                  </div>
+
+                  <div class="item">
+                    <img style="max-height:220px" src="assets/banner2.jpg" alt="Chania" class="img-responsive" />
+                  </div>
+
+                  <div class="item">
+                    <img style="max-height:220px" src="assets/banner3.jpg" alt="Flower" class="img-responsive" height="220" />
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+        </div>
+    </div>
+   <div class="row">
+        <div class="col-md-12">
+            <div class="container">
+				<div class ="navbar navbar-default navbar-hori navbar-default-hori">
+						<button class ="navbar-toggle navbar-toogle-hori" data-toggle="collapse" data-target=".navHeaderCollapse">
+							<span class="icon-bar icon-bar-hori"></span>
+							<span class="icon-bar icon-bar-hori"></span>
+							<span class="icon-bar icon-bar-hori"></span>
+						</button>
+						<nav class="collapse navbar-collapse navHeaderCollapse collapse-hori navbar-collapse-hori navHeaderCollapse-hori">
+							<ul id="horiNav" class="nav navbar-nav nav-hori navbar-nav-hori ">
+									<li><a class="active active-hori" href ="#/">Home</a></li>
+									<li><a href ="#/login">Login/Register</a></li>
+									<li><a href ="#/contact">Contact us</a></li>
+                                    <li><a href ="#/orderWay">How to order</a></li>
+									<li><a href ="#/faq">FAQ</a></li>
+									<li><a href ="#/cart">Your Cart</a></li>
+							</ul>
+						</nav>
+				</div>
+			</div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <nav class="navbar navbar-default navbar-ver navbar-default-ver" role="navigation">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header navbar-header-ver">
+                        <button type="button" class="navbar-toggle navbar-toogle-ver" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                          <span class="sr-only sr-only-ver">Toggle navigation</span>
+                          <span class="icon-bar icon-bar-ver"></span>
+                          <span class="icon-bar icon-bar-ver"></span>
+                          <span class="icon-bar icon-bar-ver"></span>
+                        </button>
+                        <a class="navbar-brand navbar-brand-ver" href="#">Products</a>
+                      </div>
+
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse navbar-ex1-collapse collapse-ver navbar-collapse-ver navbar-ex1-collapse-ver">
+                            <form class="navbar-form navbar-left navbar-form-ver navbar-left-ver" role="search">
+                          <div class="form-group form-group-ver">
+                            <input type="text" class="form-control form-control-vet" placeholder="Search">
+                          </div>
+                          <button type="submit" class="btn btn-default btn-ver btn-default-vet">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav nav-ver navbar-nav-ver">
+                            <li class="dropdown dropdown-ver">
+                            <ul class="dropdown-toggle" data-toggle="dropdown"><li>Men<b class="caret"></b></li></ul>
+                            <ul class="dropdown-menu dropdown-menu-ver">
+                              <li><a href="#/shirts">Bracelets</a></li>
+                              <li><a href="#/working">Jens</a></li>
+                              <li><a href="#/working">T Shirts</a></li>
+                              <li><a href="#/working">Under Garments</a></li>
+                              <li><a href="#/working">Accessories</a></li>
+                            </ul>
+                          </li>
+                            <br>
+                            <li class="dropdown dropdown-ver">
+                      <ul class="dropdown-toggle" data-toggle="dropdown"><li>Ladis<b class="caret"></b></li></ul>
+                            <ul class="dropdown-menu dropdown-menu-ver">
+                              <li><a href="#/working">T Shirts</a></li>
+                              <li><a href="#/working">Skarf</a></li>
+                              <li><a href="#/working">Jens</a></li>
+                              <li><a href="#/working">Under Garments</a></li>
+                              <li><a href="#/working">Accessories</a></li>
+                            </ul>
+                          </li>
+                            <br>
+                          <li class="dropdown dropdown-ver">
+                     <ul class="dropdown-toggle" data-toggle="dropdown"><li>Children<b class="caret"></b></li></ul>
+                            <ul class="dropdown-menu dropdown-menu-ver">
+                             <li><a href="#/working">Shirts</a></li>
+                              <li><a href="#/working">Jens</a></li>
+                              <li><a href="#/working">T Shirts</a></li>
+                              <li><a href="#/working">Keds</a></li>
+                              <li><a href="#/working">Accessories</a></li>
+                            </ul>
+                          </li>
+                            <br>
+                 <li class="dropdown dropdown-ver">
+                   <ul class="dropdown-toggle" data-toggle="dropdown"><li>Gifts<b class="caret"></b></li></ul>
+                            <ul class="dropdown-menu dropdown-menu-ver">
+                              <li><a href="#/working">Full package for her</a></li>
+                              <li><a href="#/working">full package for him</a></li>
+                            </ul>
+                          </li>
+                            <br>
+                          <li class="dropdown dropdown-ver">
+                    <ul class="dropdown-toggle" data-toggle="dropdown"><li>Discounts<b class="caret"></b></li></ul>
+                            <ul class="dropdown-menu dropdown-menu-ver">
+                              <li><a href="#/working">Men</a></li>
+                              <li><a href="#/working">Ladis</a></li>
+                              <li><a href="#/working">Children</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div><!-- /.navbar-collapse -->
+                    </nav>
+                    
+            </div>
+            <div class="container">
+                <div class="col-md-8 col-sm-6 container">
+                    <div class="row">
+                        <div ng-view>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+    <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="text-align:center; font-size:6px">Image sources<br>
+                        banner1: https://www.christinesadler.com/shop-jewellery/collections;<br>
+                        banner2: http://www.trewarne.com.au/;<br>
+                        home-page: http://en.wikipedia.org/wiki/Jewellery<br>
+                        men's bracelets: https://www.etsy.com/market/anchor_charm</p>
+                    
+                </div>
+            </div>
+     </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<div ng-controller="viewController"> 
+    <div class=" col-md-6 col-xs-6 list-group-item" >
+        <img class="img-responsive" ng-src="{{product.image}}" />
+    </div>
+    <div class=" col-md-6 col-xs-6 list-group-item" >
+        <p>Specs</p>
+        <h1>{{product.name}}</h1>
+        <p><a href ng:click="addItem()" class="btn btn-small">Add to cart</a></p>
+    </div>
+</div>
